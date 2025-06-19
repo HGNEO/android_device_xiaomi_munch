@@ -15,7 +15,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
 # Bootanimation Resolution
-TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_BOOT_ANIMATION_RES := 1080
 
 
 PRODUCT_NAME := voltage_munch
