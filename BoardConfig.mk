@@ -26,7 +26,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
 TARGET_KERNEL_CONFIG += vendor/xiaomi/munch.config
 
 # Leica Camera
-TARGET_INCLUDES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := false
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munch_in
