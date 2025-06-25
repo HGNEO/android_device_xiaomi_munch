@@ -14,6 +14,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+# BLKI
+WITH_GMS := true
+WITH_GMS_VARIANT := pico
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
+BLACKIRON_BUILDTYPE := UnOfficial
+BLACKIRON_MAINTAINER := ZORTHIX
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
