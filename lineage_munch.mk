@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/munch/device.mk)
 # BLKI
 WITH_GMS := true
 WITH_GMS_VARIANT := pico
-TARGET_HAS_UDFPS := true
+TARGET_HAS_UDFPS := false
 TARGET_ENABLE_BLUR := true
 BLACKIRON_BUILDTYPE := UnOfficial
 BLACKIRON_MAINTAINER := ZORTHIX
